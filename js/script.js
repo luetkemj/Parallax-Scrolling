@@ -47,10 +47,10 @@ $(document).ready(function(){
 				}
 				
 				// Put together our final background position
-				var coords = '50% '+ yPos + 'px';
+				var coords = yPos + 'px';
 
 				// Move the background
-				$self.css({ backgroundPosition: coords });
+				$self.css({ marginTop: coords });
 				
 				// Check for other sprites in this section	
 				$('[data-type="sprite"]', $self).each(function() {
